@@ -1,0 +1,176 @@
+.onBoarding {
+  background-color: transparent;
+  height: 100vh; }
+  .onBoarding__title {
+    color: white;
+    text-align: center;
+    line-height: 1.7;
+    width: 260px;
+    letter-spacing: 4.9px;
+    text-shadow: 0 2px 36px rgba(0, 0, 0, 0.5);
+    font-size: 23px;
+    font-weight: 400; }
+  .onBoarding .brand-logo {
+    width: 160px;
+    margin-top: 10px; }
+
+.step__1 {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 200;
+  animation: desvanecer 3s ease-in-out forwards;
+  animation-delay: 1.5s; }
+.step__2 {
+  height: 100vh;
+  overflow: hidden;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 100; }
+.step__3 {
+  position: absolute;
+  top: 0;
+  z-index: 90; }
+
+.container-images {
+  display: flex; }
+  .container-images img {
+    height: 100%;
+    width: 100%; }
+
+.img-animation {
+  opacity: 1;
+  visibility: visible; }
+  .img-animation__1 {
+    background-image: url("https://www.ecestaticos.com/file/01c7a886667c4f2ea20c0dca5fbb40f3/1573575803-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 3.6s; }
+  .img-animation__7 {
+    background-image: url("https://www.ecestaticos.com/file/dea1d34b1e48c344821710d12cd6cde7/1573564104-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 4.5s; }
+  .img-animation__2 {
+    background-image: url("https://www.ecestaticos.com/file/88e39278db435d65de56bf2d017ff93b/1573564104-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 5.2s; }
+  .img-animation__8 {
+    background-image: url("https://www.ecestaticos.com/file/89121b4194bd53d53ede4b0e618fbfb8/1573564104-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 6.4s; }
+  .img-animation__3 {
+    background-image: url("https://www.ecestaticos.com/file/ce8589b3b0b43e4b368c31c72c4687fd/1573556124-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 6.2s; }
+  .img-animation__9 {
+    background-image: url("https://www.ecestaticos.com/file/bf8c7bd4059500b4733da2d49109da23/1573564104-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 7.4s; }
+  .img-animation__4 {
+    background-image: url("https://www.ecestaticos.com/file/2fbdc935259cdd2857490e455b294e14/1573564104-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 8.2s; }
+  .img-animation__10 {
+    background-image: url("https://www.ecestaticos.com/file/c898566027ed905fafba6b1d5a65c232/1573564104-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 9.4s; }
+  .img-animation__5 {
+    background-image: url("https://www.ecestaticos.com/file/1f220d341e31c98a9ae6c8012ebb6e3d/1573564104-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 7.2s; }
+  .img-animation__11 {
+    background-image: url("https://www.ecestaticos.com/file/3659785f89da1dde7b866bfe6e60b896/1573565130-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 8.4s; }
+  .img-animation__6 {
+    background-image: url("https://www.ecestaticos.com/file/df935cea0d7c842a531b4dd6be4ead0d/1573564104-6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 4.2s; }
+  .img-animation__12 {
+    background-image: url("https://www.ecestaticos.com/file/5d011695236974af02e2df50b662212e/1573564104-6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: max-content;
+    animation: desvanecer 1s ease-in-out forwards;
+    animation-delay: 5.4s; }
+
+@media screen and (min-width: 768px) {
+  .onBoarding {
+    background-color: transparent;
+    height: 100vh; }
+    .onBoarding__title {
+      width: auto;
+      font-size: 27px; }
+    .onBoarding .brand-logo {
+      width: 273px;
+      margin-top: 10px; } }
+@media screen and (min-width: 1200px) {
+  .img-animation {
+    opacity: 1;
+    visibility: visible; }
+    .img-animation__1 {
+      background-image: url("https://www.ecestaticos.com/file/da33ba431de68b9a88c4a40e96963835/1573556124-1.jpg"); }
+    .img-animation__7 {
+      background-image: url("https://www.ecestaticos.com/file/272d4e60899b1322c3d5579ff4fad9cd/1573557489-1.jpg"); }
+    .img-animation__2 {
+      background-image: url("https://www.ecestaticos.com/file/7c6a7246d77def84f2104f4371e454a8/1573556124-2.jpg"); }
+    .img-animation__8 {
+      background-image: url("https://www.ecestaticos.com/file/92390e9fc917f37c68011ff452c49bc9/1573558075-2.jpg"); }
+    .img-animation__3 {
+      background-image: url("https://www.ecestaticos.com/file/ce8589b3b0b43e4b368c31c72c4687fd/1573556124-3.jpg"); }
+    .img-animation__9 {
+      background-image: url("https://www.ecestaticos.com/file/0fa1165d9ff4fd5a1c68da129d3c98e9/1573558110-3.jpg"); }
+    .img-animation__4 {
+      background-image: url("https://www.ecestaticos.com/file/0cbbd4d5e57df34a0cb4351d85b59e0b/1573556124-4.jpg"); }
+    .img-animation__10 {
+      background-image: url("https://www.ecestaticos.com/file/4af318566b36a0ff53536e7bf63af822/1573558219-4.jpg"); }
+    .img-animation__5 {
+      background-image: url("https://www.ecestaticos.com/file/b3bfe063f46c01baba1306a1917a62db/1573556124-5.jpg"); }
+    .img-animation__11 {
+      background-image: url("https://www.ecestaticos.com/file/338abd9e8dfc5fc97685036422669ddf/1573558140-5.jpg"); }
+    .img-animation__6 {
+      background-image: url("https://www.ecestaticos.com/file/725e614a4ab49ad7278bbf43703c1024/1573556124-6.jpg"); }
+    .img-animation__12 {
+      background-image: url("https://www.ecestaticos.com/file/abb68e08cea8e3262b9763d695f19970/1573557938-6.jpg"); } }
+
+/*# sourceMappingURL=onBoarding.css.map */

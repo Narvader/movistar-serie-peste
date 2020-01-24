@@ -1,0 +1,206 @@
+.capa-bg {
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+  animation: desvanecer 6s ease-in-out forwards;
+  animation-delay: 6s;
+  top: 0; }
+
+.circulos {
+  width: 94%;
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; }
+
+.section-header {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  background-image: url("https://www.ecestaticos.com/file/38fab8020df23e48ac41da36dc9d53bd/1573637466-fondo-movil.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .section-header .container-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  .section-header .title-header {
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0 2px 36px rgba(0, 0, 0, 0.73);
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.04;
+    letter-spacing: 0.34px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 32px 27px;
+    position: relative;
+    z-index: 10; }
+  .section-header .signature-text {
+    letter-spacing: 7.88px;
+    color: #ffffff;
+    text-shadow: 0 2px 36px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 10;
+    margin: 0 auto; }
+
+.img__1 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 78%; }
+.img__2 {
+  position: absolute;
+  z-index: 1;
+  top: 2.3%;
+  right: 0;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end; }
+
+.logo-el-confidencial {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  background-color: #000000;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  top: 0;
+  cursor: pointer; }
+  .logo-el-confidencial__img {
+    width: 23px;
+    margin-right: 5px; }
+
+.powered {
+  display: flex;
+  right: 10px;
+  position: absolute;
+  top: 0;
+  align-items: flex-end; }
+  .powered__img {
+    max-width: 90px;
+    position: relative;
+    z-index: 10;
+    transform: translateY(-24px); }
+  .powered__text1 {
+    font-size: 12px;
+    line-height: 5.25;
+    letter-spacing: 1.87px;
+    color: #bcbcbc;
+    position: relative;
+    z-index: 1; }
+
+@media screen and (max-width: 374px) {
+  .section-header .img__1 {
+    width: 78%; }
+  .section-header .title-header {
+    font-size: 34px; } }
+@media screen and (min-width: 768px) {
+  .circulos {
+    top: 50%; }
+
+  .section-header {
+    background-image: url("https://www.ecestaticos.com/file/69cc841e8de924ed72dfcc9aa5cada43/1573655377-fondo-escritorio.jpg");
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center; }
+    .section-header .signature-text {
+      padding: 50px 0 0 0;
+      transform: translateY(0); }
+    .section-header .title-header {
+      padding: 0;
+      font-size: 70px; }
+
+  .img__2 {
+    width: 48%;
+    top: 3.5%; } }
+@media screen and (min-width: 1024px) {
+  .circulos {
+    width: 67%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10; }
+
+  .img__2 {
+    width: 36%;
+    top: 2.8%; }
+
+  .img__1 {
+    width: 50%; }
+
+  .title-header {
+    font-size: 56px; } }
+@media screen and (min-width: 1200px) {
+  .section-header .signature-text {
+    bottom: 177px; }
+
+  .img__1 {
+    width: 100%; }
+    .img__1 img {
+      max-width: none;
+      width: 50%; }
+  .img__2 {
+    width: 100%; }
+    .img__2 img {
+      max-width: none;
+      width: 34%;
+      right: 0;
+      position: absolute; } }
+@media screen and (min-width: 1440px) {
+  .img__1 img {
+    width: 44%; } }
+@media screen and (min-width: 1600px) {
+  .circulos {
+    width: 49%; }
+
+  .img__1 {
+    width: 100%; }
+  .img__2 {
+    width: 100%;
+    top: 2.5%; } }
+@media screen and (min-width: 1900px) {
+  .circulos {
+    width: 54%; }
+
+  .section-header .signature-text {
+    bottom: 145px; }
+
+  .img__1 {
+    width: 80%; }
+  .img__2 {
+    top: 2.3%; } }
+@media screen and (min-width: 2560px) {
+  .circulos {
+    width: 54%; }
+
+  .section-header .signature-text {
+    bottom: 200px; } }
+@keyframes desvanecer {
+  0% {
+    opacity: 1;
+    visibility: visible; }
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+@keyframes showImges {
+  0% {
+    opacity: 0;
+    visibility: hidden; }
+  100% {
+    opacity: 1;
+    visibility: visible; } }
+
+/*# sourceMappingURL=header.css.map */
